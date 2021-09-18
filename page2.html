@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კოვიდის კითხვარი</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="body-page2">
+  <img class="redberry" src="assets/redberry.png">
+  <h1 class="numbering">2/4</h1> 
+  <hr class="line">
+
+  <h1>გაქვს გადატანილი Covid-19?*</h1>
+  <div class="btn">
+    <input type="radio" id="yes" name="covid" value="yes"  onclick="show1();"
+                >
+      <label >კი</label>
+  </div>
+      
+  <div  class="btn">
+    <input type="radio" id="no" name="covid" value="no" onclick="show2();">
+    <label >არა</label>
+  </div>
+      
+  <div class="btn"> 
+    <input type="radio" id="now" name="covid" value="now" onclick="show2();">
+    <label >ახლა მაქვს</label>
+    </div>
+        
+  <div id="div" class="additional">
+    <h1>ანტისხეულების ტესტი გაქვს გაკეთებული?*</h1>
+    <div class="btn">
+      <input type="radio" id="yes" name="antitest" value="yes" onclick="show3();"
+                 >
+       <label >კი</label>
+    </div>
+    <div class="btn">
+      <input type="radio" id="no" name="antitest" value="no" onclick="show4();">
+      <label >არა</label>
+    </div>
+  </div>
+    
+  <div id="div2" class="div2"> 
+    <form class="test-date" action="#" >
+    
+      <p class="testdate">თუ გახსოვს, გთხოვ მიუთითე ტესტის მიახლოებითი რიცხვი და ანტისხეულების რაოდენობა*</p>
+      <label>
+        <input class="text" type="text" name="testdate" placeholder="რიცხვი" onfocus="(this.type='date')" required>
+      </label>
+      <label>
+        <input class="number" type="number" name="testdate" placeholder="ანტისხეულების რაოდენობა" required>
+      </label>
+     
+    </form>
+ </div>  
+    <div class="fire"></div>
+    <div class="red"></div>
+
+  <div id="div3" class="div3"> 
+    <form class="test-date2" action="#">
+      <p class="testdate2">მიუთითე მიახლოებითი პერიოდი (დღე/თვე/წელი) როდის გქონდა Covid-19*</p>
+      <label>
+        <input class="text2" type="text" name="testdate2" placeholder="დდ/თთ/წწ" onfocus="(this.type='date')" required>
+      </label> 
+   </form>
+    
+  </div>
+ 
+  <button class="previous" onclick="location.href = 'page1.html';"></button>
+  <button id="next2" class="next2"  onclick="return radioValidation();"></button>
+  <script src="script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>აცრა</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body-page2">
+    <img class="redberry" src="assets/redberry.png">
+    <h1 class="numbering">3/4</h1> 
+    <hr class="line">
+<form class="page2-form">
+    <h1 class="vaccine">უკვე აცრილი ხარ?*</h1>
+    <div class="btn-vaccine">
+      <input type="radio" id="y" name="vaccine" value="y"  onclick="show5();" 
+                  >
+        <label >კი</label>
+    </div>  
+    <div  class="btn-vaccine">
+      <input type="radio" id="n" name="vaccine" value="n" onclick="show6();" >
+      <label >არა</label>
+    </div>
+  
+
+<div id="choose-dose" class="choose-dose">
+    <h1 class="dose">აირჩიე რა ეტაპზე ხარ*</h1>
+    <div class="first">
+        <input type="radio" id="first" name="stage" value="first"  onclick="show7a();" 
+                  >
+        <label class="doses" >პირველი დოზა და დარეგისტრირებული ვარ მეორეზე</label>
+    </div>
+    <div class="fully">
+        <input type="radio" id="fully" name="stage" value="fully"  onclick="show7a();" 
+                  >
+        <label class="doses" >სრულად აცრილი ვარ</label>
+    </div>
+    <div class="not-second">
+        <input type="radio" id="not-second" name="stage" value="not-second"  onclick="show7();" 
+                  >
+        <label >პირველი დოზა და არ დავრეგისტრირებულვარ მეორეზე</label> 
+        
+    </div>
+   
+</div>
+ 
+<p id="text5">რომ არ გადადო, <br> ბარემ ახლავე დარეგისტრირდი <br> <a href="https://booking.moh.gov.ge/" style="color: blue;">https://booking.moh.gov.ge/</a></p>
+<div id="why" class="why">
+    <h1 class="whynot">რას ელოდები?*</h1>
+    <div class="time">
+        <input type="radio" id="waiting-date" name="waiting" value="w"  onclick="show8a();" 
+                  >
+        <label>დარეგისტრირებული ვარ და ველოდები რიცხვს</label>
+    </div>
+    <div class="dont">
+        <input type="radio" id="dont" name="waiting" value="d"  onclick="show8();" 
+                  >
+        <label >არ ვგეგმავ</label>
+    </div>
+    <div class="had">
+        <input type="radio" id="had-one" name="waiting" value="h" onclick="show9();" 
+                  >
+        <label >გადატანილი მაქვს და ვგეგმავ აცრას</label>
+    </div>
+</div>
+
+<p id="text6"> 👉<a href="https://booking.moh.gov.ge/" style="color: blue;"> https://booking.moh.gov.ge/</a></p>
+<p id="text7"> ახალი პროტოკოლით კოვიდის გადატანიდან 1 თვის შემდეგ შეგიძლიათ ვაქცინის გაკეთება. <br> <br> 👉რეგისტრაციის ბმული <br> <a href="https://booking.moh.gov.ge/" style="color: blue;"> https://booking.moh.gov.ge/</a></p>
+
+
+<button type="button" class="previous2" onclick="location.href = 'page2.html';" ></button>
+<button type="button" class="next3"  onclick="radioValidation2();"></button>
+</form>
+<div class="doctor"></div>
+<div class="star"></div>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>იდენტიფიცირება</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body class="body-page2">
+       
+        <img class="redberry" src="assets/redberry.png">
+        <h1 class="numbering">1/4</h1> 
+      
+       <hr class="line">
+        <form  id="myForm" action="#">
+            <div class="name">
+                <label class="formlabel" for="fname">სახელი*</label>
+                <input class="forminput" type="text" id="fname" name="firstname" minlength="3" maxlength="255" placeholder="იოსებ" required="required" onkeydown="validation()" >
+                <span id="text"></span>
+            </div>
+            <div class="surname">
+                <label class="formlabel" for="lname">გვარი*</label>
+                <input class="forminput" type="text" id="lname" name="lastname" minlength="3" maxlength="255" placeholder="ჯუღაშვილი" required="required" onkeydown="validation()" >
+                <span id="text2"></span>
+        </div>
+            <div class="email">
+                <label class="formlabel" for="lname">მეილი*</label>
+                <input class="forminput" type="email" id="email" name="email" placeholder="fbi@redberry.ge" required="required" onkeydown="validation()" >
+                <span id="text3"></span>
+                <span id="text4"></span>
+        </div>
+        <button type="submmit" class="next" formaction="page2.html" onkeydown="validation()" ></button>
+        </form>
+        <hr class="line-1" >
+        <p class="notabene">*-ით მონიშნული ველების შევსება სავალდებულოა</p>
+        <div class="friends"></div>
+        <div class="yellow-rec"></div>
+        <script src="script.js"></script>
+        </body>
+       
+</html>

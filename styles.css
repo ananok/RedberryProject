@@ -1,0 +1,936 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:#EAEAEA;
+}
+.body {  
+    width: 1920px;
+    height: 1080px; 
+    
+}
+
+.start-page{
+   
+    width: 1920px;
+    height: 1080px;
+}
+
+.start-1{
+    display: none;
+    position: absolute;
+    width: 1920px;
+    height: 1080px; 
+   
+}
+.start-2{
+    position: absolute;
+    display:flex;
+}
+  
+.main-logo1{
+    transform: scale();
+   animation-duration: 400ms;
+    animation-delay: 80ms;
+    animation: ease-out;
+    animation-name: scale;
+}
+.rectangle-1{
+    position: absolute;
+    width: 455px;
+    height: 278px;
+    top: 262px;
+    left:732px;
+}
+.main-logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 81px;
+    left:178px;
+}
+.main-title{
+    position: absolute;
+    width: 498px;
+    height: 179px;
+    left: 711px;
+    top: 544px;
+    font-family: TBC Contractica CAPS;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: lowercase;
+    font-feature-settings: 'case' on;
+   
+}
+.main-title:hover{
+    text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  
+}
+.page1-click{
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+}
+a, a:visited {
+    color: inherit;
+}
+
+.body-page2{
+    width: 1920px;
+    height: 1080px; 
+    margin:0 auto;
+}
+
+.redberry{
+    position: relative;
+    width:147.8px;
+    height:24px;
+    left: 200px;
+    top:97px;
+}
+
+.line{
+    position: relative;
+    height:2px;
+    width:1520px;
+    top:20px;
+    left:200px;
+    z-index: 1;
+    border: 1px solid #232323;  
+}
+.numbering{
+    position: relative;
+    text-align: right;
+    left:1596px;
+    height:95px;
+    width:128px;
+    top: 60px;
+}
+
+form{
+    position: absolute;
+    left:200px;
+    top:210px;
+}
+.formlabel{
+    width:575px;
+    height:40px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+.forminput{
+    width:513;
+    height:50px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    border: 0.8px solid #232323
+
+}
+
+.name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:575px;
+}
+
+.surname{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:47px;
+    width:575px;
+}
+
+.email{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:87px;
+    width:575px;
+}
+
+#fname{
+    margin-top: 12px;
+    padding-left: 20px;
+    
+    width:513px;
+}
+#lname{
+    width:513px;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+#email{
+    width:513px;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+.line-1{
+position: relative;
+Width:237px;
+top:664px;
+Left: 200px;
+border: 0.8px solid #000000;
+}
+
+.notabene{
+position: relative;
+width: 365px;
+height: 91px;
+left: 200px;
+top: 684px;
+font-weight: normal;
+font-family: Helvetica Neue LT GEO;
+font-style: normal;
+font-size: 16px;
+line-height: 19px;
+color: #626262;
+}
+
+.friends{
+    position: absolute;
+    width: 904px;
+    height: 831px;
+    left:851px;
+    top:120px;
+    background-image: url(assets/page1-img.png);
+    background-color: transparent;
+    z-index: 2;
+}
+
+.yellow-rec{
+    position: absolute;
+    top:350px;
+    left:978px;
+    width:622px;
+    height:75px;
+    background-color:rgb(214,209,110);
+   z-index:1
+   
+    
+    
+}
+.next{
+    background: url(assets/Vector\ 4.png) no-repeat;
+    background-size: fill;
+    position: absolute;
+    width:20px;
+    height:23px;
+    top:750px;
+    left:830px;
+    border: none;
+    cursor: pointer; 
+    
+    
+}
+
+h1{
+    position: relative;
+    width:575px;
+    left:200px;
+    top:70px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.btn{
+    position: relative;
+    left:216px;
+    top:80px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom:15px;
+    color: #232323;
+
+}
+
+
+
+#div{
+    position:absolute;
+    width: 575px;
+    height: 40px;
+    top: 340px;
+    
+}
+.additional{
+    display:none;
+    position: relative;
+    width: 575px;
+    height: 40px;
+    top: 340px;
+}
+
+.div2{
+    display: none;
+}
+.div3{
+    display: none;
+}
+.test-date{
+    position: absolute;
+    flex-direction: column;
+    width: 596px;
+    height: 56px;
+    left:199px;
+    top: 561px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #000000;
+}
+
+.number{
+    position: relative;
+    top:30px;
+    width:513px;
+    height:50px;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    border: 0.8px solid #232323;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.text{
+    position: relative;
+    width:513px;
+    height:50px;
+    left: 0%;
+    right: 0%;
+    top:10px;
+    bottom: 0%;
+    padding-left: 20px;
+    border: 0.8px solid #232323;
+    box-sizing: border-box;
+}
+
+.fire{
+    position: absolute;
+    width: 949px;
+    height: 800px;
+    right: 176px;
+    top: 121px;
+    left:795px;
+    background-color: transparent;
+    background-image: url(assets/vaccinate2.png);
+    z-index: 3;
+}
+
+.red{
+    position: absolute;
+    width: 229px;
+    height: 229px;
+    right: 815px;
+    top: 381px;
+    left:876px;
+    background-color: transparent;
+    background-image: url(assets/main\ logo\ 2.png);
+    
+    
+}
+
+.test-date2{
+    position: absolute;
+    width: 596px;
+    height: 199px;
+    left: 199px;
+    top: 561px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #000000;
+}
+
+.text2{
+    margin-top:29px;
+    width:513px;
+    height:50px;
+    left:15px;
+    padding-left:20px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #232323;
+}
+
+.next2{
+    
+    background: url(assets/turnonleft.png) no-repeat;
+    background-size: fill;
+    position: absolute;
+    width:20px;
+    height:23px;
+    top:955px;
+    left:1018px;
+    border: none;
+    cursor: pointer; 
+    z-index: 5;
+}
+
+.previous{
+    background: url(assets/Vector\ 7.png) no-repeat;
+    background-size: fill;
+    position: absolute;
+    width:20px;
+    height:23px;
+    top:955px;
+    left:887px;
+    border: none;
+    cursor: pointer; 
+    z-index: 1;
+    
+}
+
+.page2-form{
+    height:510px;
+    top:186px;
+    left:200px;
+    width:575px;
+}
+.vaccine{
+    position: absolute;
+    width: 575px;
+    height: 40px;
+    left:0px;
+    top:0px;
+}
+
+.btn-vaccine{
+    position: relative;
+    left:16px;
+    top:48px;
+    height:40px;
+    width:534px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #232323;
+    
+}
+
+.choose-dose{
+    display: none;
+    position: absolute;
+    width: 575px;
+    height: 160px;
+    top:160px;
+    left:0px;
+}
+#choose-dose{
+    display: none;
+}
+.dose{
+    position: relative;
+    width: 575px;
+    height: 40px;
+    left:0px;
+    top:0px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.first{
+    position: absolute;
+    width: 534px;
+    height: 29px;
+    left: 15px;
+    top: 40px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+}
+
+.fully{
+    position: absolute;
+    width: 422px;
+    height: 32px;
+    left: 15px;
+    top: 80px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+}
+
+.not-second{
+    position: absolute;
+    width: 642px;
+    height: 33px;
+    left: 15px;
+    top: 120px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+}
+
+#text5{
+    display: none;
+    position:absolute;
+    width:337px;
+    height:92px;
+    left:40px;
+    top:339px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #232323;
+}
+
+
+.why{
+    display: none;
+}
+
+
+.whynot{
+    position: relative;
+    width: 575px;
+    height: 40px;
+    left:0px;
+    top:100px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.time{
+    position: absolute;
+    width: 534px;
+    height: 29px;
+    left: 15px;
+    top: 224px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+}
+
+.dont{
+    position: absolute;
+    width: 422px;
+    height: 32px;
+    left: 15px;
+    top: 259px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #232323;
+}
+
+.had{
+    position: absolute;
+    width: 642px;
+    height: 33px;
+    left: 15px;
+    top: 291px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+}
+
+#text6{
+    display: none;
+    position:absolute;
+    width:337px;
+    height:92px;
+    left:40px;
+    top:339px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #1289AE;
+}
+
+#text7{
+    display: none;
+    position:absolute;
+    width:491px;
+    height:192px;
+    left:40px;
+    top:329px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #232323;
+}
+.next3{
+    z-index: 1;
+    background: url(assets/turnonleft.png) no-repeat;
+    background-size: fill;
+    position: absolute;
+    width:20px;
+    height:23px;
+    top:955px;
+    left:1018px;
+    border: none;
+    cursor: pointer; 
+}
+
+.previous2{
+    background: url(assets/Vector\ 7.png) no-repeat;
+    background-size: fill;
+    position: absolute;
+    width:20px;
+    height:23px;
+    top:955px;
+    left:887px;
+    border: none;
+    cursor: pointer; 
+}
+
+.doctor{
+    position: absolute;
+    width: 783px;
+    height: 759px;
+    right: 197px;
+    top: 198px;
+    left:940px;
+    z-index: 2;
+    background-image: url(assets/doctor2.png);
+    background-color: transparent;
+   
+}
+
+.star{
+    position: absolute;
+    width: 288px;
+    height: 312px;
+    right: 661px;
+    top:180.5px;
+    left:971px;
+    background-image: url(assets/star.png);
+    background-color: transparent;
+    
+}
+
+.redberry-value{
+    position: absolute;
+    width: 606px;
+    height: 251px;
+    left: 0px;
+    top: 0px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+
+.last-form{
+    overflow-y: auto;
+    position: absolute;
+    width:622px;
+    height:870px; 
+
+}
+.first-q{
+    position: absolute;
+    width: 622px;
+    height: 83px;
+    left:0px;
+    top: 295px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.question1{
+    position: absolute;
+    width: 241px;
+    height: 157px;
+    left: 20px;
+    top: 395px;
+    
+    
+}
+.online-meeting{
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+    width:241px;
+    height:28px;
+    margin-bottom:16px;
+}
+
+.second-q{
+    position: absolute;
+    width: 622px;
+    height: 59px;
+    left: 0px;
+    top: 597px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.question2{
+    position: absolute;
+    width: 241px;
+    height: 243px;
+    left: 20px;
+    top: 669px;
+}
+
+.office{
+    width: 241px;
+    height: 28px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #232323;
+    margin-bottom: 16px;
+    
+}
+
+.third{
+    position: absolute;
+    width: 622px;
+    height: 31px;
+    left: 0px;
+    top: 961px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.text-area1{
+    position: absolute;
+    height: 184px;
+    width: 622px;
+    left: 0px;
+    top: 1014px;
+    border-radius: 0px;
+    
+}
+
+.fourth{
+    position: absolute;
+    width: 622px;
+    height: 31px;
+    top:1194px;
+    left: 0px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: 'cpsp' on;
+    color: #232323;
+}
+
+.text-area2{
+    position: absolute;
+    height: 184px;
+    width: 622px;
+    left: 0px;
+    border-radius: 0px;    
+    top:1274px;
+}
+
+.heart{
+    position: absolute;
+    width: 194.7px;
+    height: 172px;
+    left:1055.58px;
+    top: 281.5px;
+    background-image: url(assets/heart.png);
+}
+
+.bike{
+    position:absolute;
+    width: 703px;
+    height: 703px;
+    left:955px;
+    top: 215px;
+    background: url(assets/bike.png);
+}
+.previous3{
+    position: absolute;
+    background: url(assets/Vector\ 7.png) no-repeat;
+    background-size: fill;
+    position: absolute;
+    width:20px;
+    height:23px;
+    top:340px;
+    left:704px;
+   padding-bottom:30px;
+    border: none;
+    cursor: pointer; 
+}
+
+.final{
+    height: 56px;
+    width: 180px;
+    left: 460px;
+    top: 210px;
+    border-radius: 42px;
+    padding: 17px, 29px, 17px, 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    background: #208298;
+   
+}
+
+.finalbutt{
+    position: absolute;
+    width: 122px;
+    height: 22px;
+    left: 20px;
+    top: 15px;
+    font-family: TBC Contractica CAPS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #208298;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.thanks{
+    position: absolute;
+    left: -0.83%;
+    right: -3.2%;
+    top: -0.69%;
+    bottom: -3.47%;
+
+    background: #232323;
+
+}
+
+.thank-you{ 
+    position: absolute;
+    left: 38.39%;
+    right: 38.44%;
+    top: 46.02%;
+    bottom: 46.85%;
+
+    font-family: TBC Contractica CAPS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.24em;
+    color: #FFFFFF;
+    background: #232323;
+}
+
+.star1{
+    position:relative;
+    Width:52.29px;
+    Height:52.29px;
+    left: 795px;
+    right: 0%;
+    top: 450px;
+    bottom: 0.02%;
+    background-image: url(assets/star1.png);
+    background-color: transparent;
+}
+
+.star2{
+    position:relative;
+    height: 32.993690490722656px;
+    width: 33px;
+    left: 1100px;
+    right: 0%;
+    top: 545px;
+    bottom: 0.02%;
+    background-image: url(assets/star2.png);
+    background-color: transparent;
+}
